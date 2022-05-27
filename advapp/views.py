@@ -72,7 +72,6 @@ def getAdDetails(request,uid, adid):
         # Save the results in database
         user = User.objects.get(id = uid)
         adid = Advertisement.objects.get(addId = ad.addId)
-        res['emotion_name'] = "happy"
         obj = UserResults(username = user, addId = adid, emotion_name = res['emotion_name'])
         obj.save()
         return render(request, 'adDetail.html', {'ad': ad, 'detected' : "Your emotion has been recorded successfully, Thankyou!"})
