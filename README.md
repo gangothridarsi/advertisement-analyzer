@@ -68,5 +68,8 @@
 ## Video Demo
 
 * [Video Demo](https://drive.google.com/file/d/1BfK2MdMYoq2w2roZyU_MpR-Cc_gk-sFD/view?usp=sharing)
+
+## GIT URL
+
 * [Git Repo URL](https://github.com/gangothridarsi/advertisement-analyzer.git)
   
